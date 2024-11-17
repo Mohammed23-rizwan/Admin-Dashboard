@@ -3,6 +3,8 @@ import { BsClock } from "react-icons/bs";
 import { CiMail } from "react-icons/ci";
 import { PiPlus } from "react-icons/pi";
 import { RxAvatar } from "react-icons/rx";
+import img1 from "../assets/imgs/3.jfif";
+import img2 from "../assets/imgs/4.jfif";
 
 const SidePro = () => {
   return (
@@ -21,9 +23,17 @@ const SidePro = () => {
           <ul>
             <li className="flex justify-between pt-5 pb-4">
               <div className=" flex gap-3 items-center">
-                <div className="w-[32px] h-[32px] bg-gray-400 rounded-full"></div>
+                <div className="w-[32px] h-[32px]">
+                  <img
+                    src={img1}
+                    alt=""
+                    className="rounded-full bg-center bg-cover"
+                  />
+                </div>
                 <div className="flex flex-col">
-                  <h2 className="text-[12px] text-[#00073D]">Billy Parker</h2>
+                  <h2 className="text-[12px] text-[#00073D]">
+                    Mohammed Rizwan S
+                  </h2>
                   <p className="text-[10px] text-[#A7A7A7]">Product Manager</p>
                 </div>
               </div>
@@ -35,7 +45,13 @@ const SidePro = () => {
             </li>
             <li className="flex justify-between pt-3 pb-4">
               <div className=" flex gap-3 items-center">
-                <div className="w-[32px] h-[32px] bg-gray-400 rounded-full"></div>
+                <div className="w-[32px] h-[32px] bg-gray-400 rounded-full">
+                  <img
+                    src={img2}
+                    alt=""
+                    className="rounded-full bg-center bg-cover"
+                  />
+                </div>
                 <div className="flex flex-col">
                   <h2 className="text-[12px] text-[#00073D]">Billy Parker</h2>
                   <p className="text-[10px] text-[#A7A7A7]">Product Manager</p>
@@ -58,7 +74,7 @@ const SidePro = () => {
           <p className="text-[12px] text-[#00083D]">invite new team members</p>
         </div>
       </div>
-      <div className="bg-[#fff] rounded-[10px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-5">
+      <div className="bg-[#fff] mb-5 lg:mb-0 rounded-[10px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-5">
         <p className="text-[10px] uppercase text-[#898989]">Meeting</p>
         <div>
           <h2 className="text-[14px] capitalize pt-3 text-[#000037]">

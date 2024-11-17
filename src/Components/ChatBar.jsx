@@ -5,7 +5,7 @@ import { PiLinkSimpleBreakLight } from "react-icons/pi";
 const ChatBar = () => {
   return (
     <div className="flex flex-col gap-2 w-full justify-evenly h-full">
-      <div className="h-[60px] w-[170px] bg-[#E4EFFA] relative translate-x-[145px] rounded-l-[10px] rounded-tr-[10px]">
+      <div className="h-[60px] w-[170px] bg-[#E4EFFA] translate-x-[215px] md:translate-x-[575px] lg:translate-x-[145px] rounded-l-[10px] rounded-tr-[10px]">
         <p className="text-[10px] p-[10px] text-justify">
           Hi! Next week we&apos;ll start a new project. I&apos;ll tell you all
           the details later
@@ -17,7 +17,7 @@ const ChatBar = () => {
           the details later
         </p>
       </div>
-      <div className="h-[60px] w-[170px] bg-[#E4EFFA] relative translate-x-[145px] rounded-l-[10px] rounded-tr-[10px]">
+      <div className="h-[60px] w-[170px] bg-[#E4EFFA] relative translate-x-[215px] md:translate-x-[575px] lg:translate-x-[145px] rounded-l-[10px] rounded-tr-[10px]">
         <p className="text-[10px] p-[10px] text-justify">
           Here is the link to tommorow&apos;s meeting, check it please
         </p>

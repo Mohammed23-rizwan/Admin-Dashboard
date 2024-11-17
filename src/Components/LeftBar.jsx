@@ -7,7 +7,7 @@ import { PiCirclesThreeLight, PiSquaresFour } from "react-icons/pi";
 
 const LeftBar = () => {
   return (
-    <div className="w-[220px] h-full grid place-items-center">
+    <div className="hidden w-[220px] h-full lg:grid place-items-center">
       <div className="w-full h-full shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-[#F0EFEF] rounded-[10px] p-[20px] flex flex-col justify-between">
         <div>
           <p>Rizwan</p>
